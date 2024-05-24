@@ -7,7 +7,7 @@ require 'vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\SMTP;
+
 
 // Переменные, которые отправляет пользователь
 $name = isset($_POST['name']) ? $_POST['name'] : '';
